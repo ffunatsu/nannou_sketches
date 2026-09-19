@@ -1,9 +1,12 @@
+#![allow(unused)]
+
 use nannou::prelude::*;
 
 fn main() {
     nannou::sketch(view).size(400, 400).run();
 }
 
+#[unsafe(no_mangle)]
 fn view(app: &App) {
     let draw = app.draw();
     let win = app.window_rect();
