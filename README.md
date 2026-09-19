@@ -5,3 +5,9 @@ bevy 0.19, nannou 0.20 (forked version, https://github.com/nannou-org/nannou/pul
 ```bash
 $ cargo run --example # this shows the list
 ```
+
+## License
+
+CC-BY-SA 4.0
+
+Copyright (c) 2026 Fumiya Funatsu
