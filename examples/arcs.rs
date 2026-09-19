@@ -11,5 +11,5 @@ fn view(app: &App) {
 
     draw.background().color(BLACK);
 
-    draw.ellipse().xy(center);
+    draw.ellipse().xy(center).w_h(100.0, 100.0);
 }
