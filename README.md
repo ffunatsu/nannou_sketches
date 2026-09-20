@@ -12,13 +12,13 @@ $ cargo run --example # this shows the list
 
 ```bash
 $ cargo install cargo-watch
-$ cargo watch -x "run --example arcs"
+$ cargo watch -x "run --example [example_name]" # for example
 ```
 
 ### asset hot reloading (such as wgsl)
 
 ```bash
-$ cargo run --example some_example --features=hot_reload
+$ cargo run --example [example_name] --features=hot_reload
 ```
 
 ## License
