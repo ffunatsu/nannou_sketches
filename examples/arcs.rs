@@ -41,7 +41,7 @@ fn view(app: &App) {
 
     draw.background().color(BLACK);
 
-    draw.ellipse().xy(center).wh(vec2(1.0, 1.0) * cd);
+    draw.ellipse().xy(center).wh(Vec2::ONE * cd);
 
     let seed: u64 = 42;
     let mut rng: StdRng = SeedableRng::seed_from_u64(seed);
