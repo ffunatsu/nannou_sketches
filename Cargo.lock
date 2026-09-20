@@ -3607,7 +3607,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "nannou_studies"
+name = "nannou_sketches"
 version = "0.1.0"
 dependencies = [
  "nannou_dynamic",
