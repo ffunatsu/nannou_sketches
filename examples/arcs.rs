@@ -31,6 +31,8 @@ fn arc(d: f32, ang_w: f32, center: Point2) -> Path {
 }
 
 fn view(app: &App) {
+    let t = app.time();
+
     let draw = app.draw();
     let win = app.window_rect();
     let center = pt2(0.0, 0.0);
@@ -51,6 +53,8 @@ fn view(app: &App) {
     let m = 5;
 
     for k in 0..m {
+        let r: f32 = rng.random_range(-1.0f32..1.0f32);
+
         for i in 0..n {
             let d = fd + td * k as f32;
             let ang_offset = rng.random_range(0.0f32..120f32);
@@ -59,7 +63,7 @@ fn view(app: &App) {
 
             let arc_path = arc(d, ang_w, center);
 
-            let rot = draw.rotate(deg_to_rad(ang + ang_offset));
+            let rot = draw.rotate(deg_to_rad(ang + ang_offset + (t * r * 30.0f32)));
 
             rot.path()
                 .stroke()
