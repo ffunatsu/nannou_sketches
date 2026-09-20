@@ -4,13 +4,17 @@ version = "0.1.0"
 edition = "2024"
 
 [features]
+default = ["dynamic_linking"]
 hot_reload = ["nannou/hot_reload"]
+dynamic_linking = ["nannou/dynamic_linking"]
 
 [dependencies]
-bevy = { version = "0.19", features = ["dynamic_linking"] }
+# bevy = { version = "0.19", features = ["dynamic_linking"] }
 # nannou = "0.20"
+# nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="dev"}
 # nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="main"}
 nannou = { package = "nannou_dynamic", path = "./nannou_dynamic" }
+# rand = "0.10.3"
 # hot-lib-reloader = "^0.8.2"
 
 [profile.dev]

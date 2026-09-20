@@ -5,9 +5,11 @@ edition = "2021"
 
 [features]
 hot_reload = ["nannou/hot_reload"]
+dynamic_linking = ["nannou/dynamic_linking"]
 
 [lib]
 crate-type = ["dylib"]
 
 [dependencies]
-nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="main"}
+# nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="main"}
+nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="dev"}
