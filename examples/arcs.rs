@@ -5,13 +5,14 @@ use nannou::geom::path::{Path, Builder};
 use nannou::rand::rngs::StdRng;
 use nannou::rand::SeedableRng;
 use nannou::rand::RngExt;
+use lyon::math as lm;
 
 fn main() {
     nannou::sketch(view).size(400, 400).run();
 }
 
-fn from_pt2(pt: Point2) -> lyon::math::Point {
-    lyon::math::point(pt.x, pt.y)
+fn from_pt2(pt: Point2) -> lm::Point {
+    lm::point(pt.x, pt.y)
 }
 
 fn arc(d: f32, ang_w: f32, center: Point2) -> Path {
@@ -19,9 +20,9 @@ fn arc(d: f32, ang_w: f32, center: Point2) -> Path {
     builder.move_to(from_pt2(pt2(d, 0.0)));
     builder.arc(
         from_pt2(center),
-        lyon::math::vector(d, d),
-        lyon::math::Angle::degrees(ang_w),
-        lyon::math::Angle::degrees(0.0),
+        lm::vector(d, d),
+        lm::Angle::degrees(ang_w),
+        lm::Angle::degrees(0.0),
     );
     let arc_path = builder.build();
     arc_path
