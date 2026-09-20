@@ -2,9 +2,6 @@
 
 use nannou::{lyon, prelude::*};
 use nannou::geom::path::{Path, Builder};
-// use rand::rngs::StdRng;
-// use rand::SeedableRng;
-// use rand::RngExt;
 use nannou::rand::rngs::StdRng;
 use nannou::rand::SeedableRng;
 use nannou::rand::RngExt;
