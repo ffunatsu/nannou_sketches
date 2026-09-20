@@ -3,6 +3,9 @@ name = "nannou_dynamic"
 version = "0.20.0"
 edition = "2021"
 
+[features]
+hot_reload = ["nannou/hot_reload"]
+
 [lib]
 crate-type = ["dylib"]
 

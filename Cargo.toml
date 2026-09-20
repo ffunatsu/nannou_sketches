@@ -1,7 +1,3 @@
-# [workspace]
-# resolver = "2"
-# members = ["nannou_dynamic"]
-
 [package]
 name = "nannou_studies"
 version = "0.1.0"
@@ -13,8 +9,8 @@ hot_reload = ["nannou/hot_reload"]
 [dependencies]
 bevy = { version = "0.19", features = ["dynamic_linking"] }
 # nannou = "0.20"
-nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="main"}
-# nannou = { package = "nannou_dynamic", path = "./nannou_dynamic" }
+# nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="main"}
+nannou = { package = "nannou_dynamic", path = "./nannou_dynamic" }
 # hot-lib-reloader = "^0.8.2"
 
 [profile.dev]

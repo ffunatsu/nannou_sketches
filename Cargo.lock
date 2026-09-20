@@ -3979,11 +3979,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "nannou_dynamic"
+version = "0.20.0"
+dependencies = [
+ "nannou",
+]
+
+[[package]]
 name = "nannou_studies"
 version = "0.1.0"
 dependencies = [
  "bevy",
- "nannou",
+ "nannou_dynamic",
 ]
 
 [[package]]
