@@ -21,7 +21,7 @@ $ cargo install cargo-watch
 $ cargo watch -x "run --example [example_name]"
 ```
 
-(not truly hot reloading, but nealy the same.)
+(not truly hot reloading, but nearly the same.)
 
 ### Asset hot reloading (such as wgsl)
 
