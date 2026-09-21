@@ -8,9 +8,9 @@ $ cargo run --example # this shows the list
 
 ## Screenshots
 
-|[arcs](examples/arcs.rs)|[hexas](examples/hexas.rs)|
-|---|---|
-|![](docs/arcs.png)|![](docs/hexas.png)|
+|[arcs](examples/arcs.rs)|[hexas](examples/hexas.rs)|[text](examples/text.rs)|
+|---|---|---|
+|![](docs/arcs.png)|![](docs/hexas.png)|![](docs/text.png)|
 
 ## Hot reloading (dev)
 
