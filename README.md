@@ -8,7 +8,7 @@ $ cargo run --example # this shows the list
 
 ## Screenshots
 
-|arcs|hexas|
+|[arcs](examples/arcs.rs)|[hexas](examples/hexas.rs)|
 |---|---|
 |![](docs/arcs.png)|![](docs/hexas.png)|
 
