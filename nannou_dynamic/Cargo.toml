@@ -12,4 +12,5 @@ crate-type = ["dylib"]
 
 [dependencies]
 # nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="main"}
-nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="dev"}
+# nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="dev"}
+nannou = { version = "0.20", git = "https://github.com/ffunatsu/nannou", branch="fix/ellipse-close-outline"}

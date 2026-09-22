@@ -3546,7 +3546,7 @@ dependencies = [
 [[package]]
 name = "nannou"
 version = "0.20.0"
-source = "git+https://github.com/ffunatsu/nannou?branch=dev#b328e3087ba1efa4aebb49fca994d68aac4d27cc"
+source = "git+https://github.com/ffunatsu/nannou?branch=fix%2Fellipse-close-outline#887290381fa77fb7dce80b92ce08856308039d00"
 dependencies = [
  "bevy",
  "find_folder",
@@ -3566,7 +3566,7 @@ dependencies = [
 [[package]]
 name = "nannou_core"
 version = "0.20.0"
-source = "git+https://github.com/ffunatsu/nannou?branch=dev#b328e3087ba1efa4aebb49fca994d68aac4d27cc"
+source = "git+https://github.com/ffunatsu/nannou?branch=fix%2Fellipse-close-outline#887290381fa77fb7dce80b92ce08856308039d00"
 dependencies = [
  "glam",
  "num-traits",
@@ -3576,7 +3576,7 @@ dependencies = [
 [[package]]
 name = "nannou_derive"
 version = "0.20.0"
-source = "git+https://github.com/ffunatsu/nannou?branch=dev#b328e3087ba1efa4aebb49fca994d68aac4d27cc"
+source = "git+https://github.com/ffunatsu/nannou?branch=fix%2Fellipse-close-outline#887290381fa77fb7dce80b92ce08856308039d00"
 dependencies = [
  "quote",
  "syn 2.0.119",
@@ -3585,7 +3585,7 @@ dependencies = [
 [[package]]
 name = "nannou_draw"
 version = "0.20.0"
-source = "git+https://github.com/ffunatsu/nannou?branch=dev#b328e3087ba1efa4aebb49fca994d68aac4d27cc"
+source = "git+https://github.com/ffunatsu/nannou?branch=fix%2Fellipse-close-outline#887290381fa77fb7dce80b92ce08856308039d00"
 dependencies = [
  "bevy",
  "bitflags 2.13.2",
@@ -3616,7 +3616,7 @@ dependencies = [
 [[package]]
 name = "nannou_wgpu"
 version = "0.20.0"
-source = "git+https://github.com/ffunatsu/nannou?branch=dev#b328e3087ba1efa4aebb49fca994d68aac4d27cc"
+source = "git+https://github.com/ffunatsu/nannou?branch=fix%2Fellipse-close-outline#887290381fa77fb7dce80b92ce08856308039d00"
 dependencies = [
  "futures",
  "image",
